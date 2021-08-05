@@ -3,10 +3,8 @@ Code challenge for Airspace
 
 The purpose of this test file is to test the login page of "https://the-internet.herokuapp.com".
 Please use Cypress (Cypress.io) to run this file and examine its functionallity. 
-
-
-
 This file includes 11 test cases. 
+
   Nine of these test cases test different scenerios for the login functionality, and are described below:
     - A successful login, and successful logout
     - A unsuccessful login, with an incorrect username and incorrect password
