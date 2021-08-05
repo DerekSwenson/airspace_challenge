@@ -1,4 +1,4 @@
-describe('This will test the login component of the Airspace Code Challenge website', function (){
+describe('This will test the login component of the-internet.herokuapp.com for the Airspace Code Challenge', function (){
     
     beforeEach(() => {
     cy.visit('https://the-internet.herokuapp.com/login')
@@ -109,7 +109,7 @@ describe('This will test the login component of the Airspace Code Challenge webs
         
     })
 
-    it('Test the GitHub img link works', () => {
+    it('Test that the GitHub img link works', () => {
 
         cy.get('a[href="https://github.com/tourdedave/the-internet"]').should('have.prop', 'href', 'https://github.com/tourdedave/the-internet')
         //verify the correct href exists
