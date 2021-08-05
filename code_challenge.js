@@ -109,9 +109,5 @@ describe('This will test the login component of the Airspace Code Challenge webs
         
     })
 
-    it('Test GitHub Image Link', () => {
-        
-
-    })
 
 })
